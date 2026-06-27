@@ -79,9 +79,6 @@ export interface Translations {
     github: string;
     location: string;
   };
-  footer: {
-    builtWith: string;
-  };
 }
 
 export const translations: Record<Locale, Translations> = {
@@ -140,7 +137,7 @@ export const translations: Record<Locale, Translations> = {
       title: "ผลงาน",
       titleItalic: "ที่ผ่านมา",
       description:
-        "ระบบและแอปพลิเคชันที่พัฒนาและดูแลระหว่างทำงานที่ บริษัท เอาร์ไอพี จำกัด (มหาชน)",
+        "ระบบและแอปพลิเคชันที่พัฒนาและดูแลระหว่างทำงานที่ บริษัท เออาร์ไอพี จำกัด (มหาชน)",
       roleLabels: {
         dev: "พัฒนา",
         design: "ออกแบบ",
@@ -177,7 +174,7 @@ export const translations: Record<Locale, Translations> = {
         {
           period: "มิ.ย. 2567 — ปัจจุบัน",
           role: "Web Developer",
-          company: "บริษัท เอาร์ไอพี จำกัด (มหาชน)",
+          company: "บริษัท เออาร์ไอพี จำกัด (มหาชน)",
           description:
             "พัฒนาและดูแลระบบเว็บไซต์หลักของบริษัท รวมถึงพัฒนาแอป Android และตั้งค่า CI/CD pipeline",
           highlights: [
@@ -216,9 +213,6 @@ export const translations: Record<Locale, Translations> = {
       line: "LINE",
       github: "GitHub",
       location: "ที่อยู่ปัจจุบัน",
-    },
-    footer: {
-      builtWith: "สร้างด้วย React + Vite + Tailwind",
     },
   },
 
@@ -353,9 +347,6 @@ export const translations: Record<Locale, Translations> = {
       line: "LINE",
       github: "GitHub",
       location: "Current location",
-    },
-    footer: {
-      builtWith: "Built with React + Vite + Tailwind",
     },
   },
 };

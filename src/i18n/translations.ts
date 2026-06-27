@@ -178,11 +178,11 @@ export const translations: Record<Locale, Translations> = {
           description:
             "พัฒนาและดูแลระบบเว็บไซต์หลักของบริษัท รวมถึงพัฒนาแอป Android และตั้งค่า CI/CD pipeline",
           highlights: [
-            "พัฒนาและดูแลระบบ Web Course Online, Commart และ iRedCross ด้วย CodeIgniter (PHP)",
-            "ปรับจูน MySQL เพื่อรองรับ high traffic และเพิ่มประสิทธิภาพการ query",
-            "สร้างแอปเรียนออนไลน์ Android ด้วย Kotlin + Jetpack Compose (MVVM)",
-            "พัฒนา RESTful API เชื่อมต่อระหว่างเว็บและแอปมือถือ",
-            "ตั้งค่า CI/CD pipeline ด้วย Jenkins และ ArgoCD",
+            "พัฒนาและดูแลระบบหลัก 3 แพลตฟอร์ม — Web Course Online, Commart และ iRedCross ด้วย CodeIgniter (PHP)",
+            "ปรับปรุงประสิทธิภาพฐานข้อมูล MySQL ให้รองรับผู้ใช้งานจำนวนมาก และเร่งความเร็วการดึงข้อมูล",
+            "พัฒนา RESTful API เชื่อมต่อระหว่างระบบเว็บและแอปมือถือ",
+            "สร้างแอปเรียนออนไลน์บน Android ด้วย Kotlin และ Jetpack Compose (MVVM)",
+            "ตั้งค่า CI/CD pipeline ด้วย Jenkins และ ArgoCD เพื่อ automate การ deploy",
           ],
         },
       ],
@@ -312,11 +312,11 @@ export const translations: Record<Locale, Translations> = {
           description:
             "Developed and maintained the company's core web systems, built an Android app, and set up CI/CD pipelines.",
           highlights: [
-            "Developed and maintained Web Course Online, Commart, and iRedCross using CodeIgniter (PHP)",
-            "Tuned MySQL for high traffic and optimized query performance",
-            "Built an Android learning app with Kotlin + Jetpack Compose (MVVM)",
-            "Developed RESTful APIs connecting web and mobile platforms",
-            "Set up CI/CD pipelines with Jenkins and ArgoCD",
+            "Developed and maintained three core platforms — Web Course Online, Commart, and iRedCross — using CodeIgniter (PHP)",
+            "Optimized MySQL to handle high traffic volumes and improve database query performance",
+            "Built RESTful APIs integrating web systems with the mobile application",
+            "Developed an Android learning app with Kotlin and Jetpack Compose (MVVM)",
+            "Configured CI/CD pipelines with Jenkins and ArgoCD to automate deployments",
           ],
         },
       ],

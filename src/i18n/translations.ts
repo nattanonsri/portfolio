@@ -76,6 +76,7 @@ export interface Translations {
     description: string;
     phone: string;
     line: string;
+    github: string;
     location: string;
   };
   footer: {
@@ -213,6 +214,7 @@ export const translations: Record<Locale, Translations> = {
         "เปิดรับโอกาสในการทำงาน Full Stack, Web Developer และ Android Developer",
       phone: "โทรศัพท์",
       line: "LINE",
+      github: "GitHub",
       location: "ที่อยู่ปัจจุบัน",
     },
     footer: {
@@ -349,6 +351,7 @@ export const translations: Record<Locale, Translations> = {
         "Open to opportunities as a Full Stack, Web, or Android Developer",
       phone: "Phone",
       line: "LINE",
+      github: "GitHub",
       location: "Current location",
     },
     footer: {

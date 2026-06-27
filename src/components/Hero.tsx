@@ -1,6 +1,7 @@
 import { profile } from "../data/portfolio";
 import { useLanguage } from "../context/LanguageContext";
 import type { Locale } from "../i18n/translations";
+import SocialLinks from "./SocialLinks";
 
 const codeLines = [
   { indent: 0, content: 'const dev = "Nattanon";' },
@@ -104,6 +105,8 @@ export default function Hero() {
               {t.hero.getInTouch}
             </a>
           </div>
+
+          <SocialLinks className="animate-fade-up animate-delay-4 mt-6" />
 
           <div className="animate-fade-up animate-delay-4 mt-10 grid grid-cols-3 gap-2 sm:gap-3 md:mt-12">
             {t.hero.stats.map((stat) => (

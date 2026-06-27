@@ -18,13 +18,24 @@ export default function Contact() {
       href: `https://line.me/ti/p/~${profile.lineId}`,
       external: true,
     },
+    profile.social.github && {
+      label: t.contact.github,
+      value: "nattanonsri",
+      href: profile.social.github,
+      external: true,
+    },
     {
       label: t.contact.location,
       value: t.about.location,
       href: undefined,
       external: false,
     },
-  ];
+  ].filter(Boolean) as {
+    label: string;
+    value: string;
+    href: string | undefined;
+    external: boolean;
+  }[];
 
   return (
     <section id="contact" className="section-pad border-t border-border">
@@ -50,7 +61,7 @@ export default function Contact() {
               </div>
             </Reveal>
 
-            <div className="mt-12 grid gap-4 sm:grid-cols-3">
+            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {methods.map((method, i) => (
                 <Reveal key={method.label} delay={i * 100}>
                   {method.href ? (

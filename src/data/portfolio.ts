@@ -23,7 +23,7 @@ export const profile = {
   lineId: "fluky1452",
   gpa: "3.50",
   social: {
-    github: "",
+    github: "https://github.com/nattanonsri",
     linkedin: "",
   },
   available: true,
